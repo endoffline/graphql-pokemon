@@ -2,6 +2,9 @@
   "name": "graphql-pokemon",
   "description": "Get information of a Pokémon with GraphQL!",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.11.1"
+  },
   "author": {
     "name": "Lucas Bento da Silva",
     "email": "lucas.bsilva@outlook.com",
