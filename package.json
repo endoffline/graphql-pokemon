@@ -3,7 +3,9 @@
   "description": "Get information of a Pokémon with GraphQL!",
   "version": "1.0.0",
   "engines": {
-    "node": "8.11.1"
+    "node": "8.11.1",
+    "npm": "6.1.0",
+    "yarn": "1.7.0"
   },
   "author": {
     "name": "Lucas Bento da Silva",
