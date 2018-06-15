@@ -50,10 +50,10 @@
     "build2": "rm -rf dist/* && babel src --out-dir dist --copy-files",
     "build-win": "rd /s /q dist && babel src --out-dir dist --copy-files",
     "build-schema": "babel-node ./scripts/buildSchema.js",
-    "start": "node ./dist/app.js",
+    "start": "node ./dist/index.js",
     "build": "babel app/*.js -d dist",
     "watch": "nodemon src/index.js --exec babel-node --copy-files"
   },
-  "start": "node ./dist/app.js",
+  "start": "node ./dist/index.js",
   "build": "babel app/*.js -d dist"
 }
